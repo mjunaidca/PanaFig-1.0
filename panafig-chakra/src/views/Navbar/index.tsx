@@ -1,6 +1,6 @@
 'use client'
 
-import { Text, Stack, Box, Link, Flex, IconButton, useDisclosure } from "@chakra-ui/react";
+import { Stack, Box, Link, Flex, IconButton, useDisclosure } from "@chakra-ui/react";
 import PanaverseLogo from '../../../public/logo.png'
 import Image from "next/image";
 import NextLink from "next/link";
@@ -39,9 +39,9 @@ export default function NavBar() {
               onClick={onToggle}
               bg="transparent"
               icon={
-                isOpen ? (<Stack direction={'column'} justifyContent='space-between' mt='28' py={'8'} px={'4'} width='100%' bg='red.600'>
+                isOpen ? (<Stack direction={'column'} justifyContent='space-between' mt='48' py={'10'} px={'6'} width='100%' bg='red.600' rounded={'md'}>
                   <Flex direction={'row-reverse'}>
-                    <CloseIcon w={3} h={3} mt='-4' />
+                    <CloseIcon w={3} h={3} mt='-6' mr='-1.5' />
                     <Box bg='red.600'>
                       <MobileView />
                     </Box>

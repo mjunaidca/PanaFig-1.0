@@ -2,11 +2,11 @@
 
 import NextLink from "next/link";
 import { NAV_ITEMS } from "@/utils/NAVITEMS";
-import { VStack, Box, Link } from "@chakra-ui/react";
+import { VStack, Box, Link, Divider } from "@chakra-ui/react";
 
 const MobileView=()=> {
   return (
-    <VStack direction={'column'} spacing='4'>
+    <VStack direction={'column'} spacing='2'>
         {NAV_ITEMS.map((nav)=>(
             <Box key={nav.label} >
         <Link 
@@ -16,6 +16,7 @@ const MobileView=()=> {
             href={nav.href ?? '#'}
             >
             {nav.label}
+            <Divider height='10px' />
           </Link>
           </Box>
       ))}
@@ -24,3 +25,4 @@ const MobileView=()=> {
 }
 
 export default MobileView;
+
