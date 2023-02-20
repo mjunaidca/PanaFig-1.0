@@ -10,7 +10,7 @@ const Instructors = () => {
 
             <Flex width={"full"} direction={'column'} py={{ base: '14', sm: '16' }}>
                 <Flex justifyContent={'center'}>
-                    <Heading> Learn From The Best</Heading>
+                    <Heading fontSize={{base:'2xl', sm:'3xl'}}> Learn From The Best</Heading>
                 </Flex>
                 <Flex flexWrap="wrap" pt={{base:'4' , sm:'6' }} px={{base:'8' , sm:'14' }} justifyContent={'space-around'} w='full'>
                     <InstructorCard url='https://pbs.twimg.com/profile_images/1478630664190795778/xuBHOC65_400x400.jpg' text='Zia Khan' />
@@ -20,7 +20,6 @@ const Instructors = () => {
                 </Flex>
             </Flex>
         </ALIGNMENT>
-
     )
 }
 
