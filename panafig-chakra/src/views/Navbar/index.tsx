@@ -14,6 +14,7 @@ export default function NavBar() {
 
   return (
     <div>
+      
       <Box bg='black' >
         <Flex maxHeight={'28'} justifyContent={'space-between'} alignItems={'center'} px={{ base: '8', md: '16', lg: '20' }} py={{ base: '6', md: '10', lg: '10' }}>
 
