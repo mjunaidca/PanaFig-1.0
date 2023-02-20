@@ -5,7 +5,7 @@ import PanaverseLogo from '../../../public/logo.png'
 import Image from "next/image";
 import NextLink from "next/link";
 import DesktopView from "./DesktopView";
-import GrayButton from "@/components/GrayButton";
+import {GrayButton} from "@/components/Buttons";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import MobileView from "./MobileView";
 
