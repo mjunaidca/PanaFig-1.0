@@ -5,6 +5,7 @@ import ConfidenceFuture from "./ConfidenceFuture";
 import Head1 from "./Head1";
 import Instructors from "./Instructors";
 import Outcome from "./Outcome";
+import Q1Q3Details from "./Q1Q3Details";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Instructors />
       <ConfidenceFuture />
       <Months6 />
+      <Q1Q3Details />
     </div>
   )
 }
