@@ -4,6 +4,7 @@ import Months6 from "./6Months";
 import ConfidenceFuture from "./ConfidenceFuture";
 import Head1 from "./Head1";
 import Instructors from "./Instructors";
+import NutshellProgram from "./NutshellProgram";
 import Outcome from "./Outcome";
 import Q1Q3Details from "./Q1Q3Details";
 import SpecialTrackDetails from "./SpecialTrackDetails";
@@ -20,6 +21,7 @@ export default function Home() {
       <SpecialTracks />
       <SpecialTrackDetails />
       <ConfidenceFuture />
+      <NutshellProgram />
     </div>
   )
 }

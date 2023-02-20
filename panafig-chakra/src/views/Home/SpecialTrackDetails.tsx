@@ -16,7 +16,7 @@ export default function SpecialTrackDetails() {
                 <Flex direction='row'>
 
                     <Flex width={{ base: '100%', sm: '50%' }} display={{ base: 'none', sm: "flex" }}>
-                        <Image src={Rings7} alt='Metaverse Rings' width={320} />
+                        <Image src={Rings7} alt='Metaverse Rings' width={420} height={320} />
                     </Flex>
 
                     <Box width={{ base: '100%', sm: '50%' }}>

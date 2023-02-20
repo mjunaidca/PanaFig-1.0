@@ -11,7 +11,7 @@ interface Props {
 
 export default function Special6TrackDetails( {title, details}: Props ) {
     return (
-        <Accordion allowMultiple>
+        <Accordion allowToggle>
             <Flex direction={'column'}>
             <AccordionItem>
                 {({ isExpanded }) => (
