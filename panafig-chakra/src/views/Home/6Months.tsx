@@ -10,21 +10,17 @@ const Months6 = () => {
     return (
 
         <ALIGNMENT>
-            <Box minW='80' justifyContent={'flex-start'}>
+            <Box minW='72' justifyContent={'flex-start'} pt={{ base: "10", sm: "14" }}>
                 <Text fontSize={'2xl'} fontWeight={'normal'}>Launch Your Career In As </Text>
                 <Text fontSize={'2xl'} fontWeight={'hairline'}>Little As 6 Months. </Text>
             </Box>
-
             <Flex display={{ base: 'none', sm: 'flex' }}>
-                <Image src={Desktop2Arrow} alt='arrow' />
+                <Image src={Desktop2Arrow} width={72} height={72} alt='arrow' />
             </Flex>
-
             <Flex display={{ base: 'flex', sm: 'none' }} py='4'>
                 <Image src={MobileArrow} alt='arrow' width={32} height={36} />
             </Flex>
-
             <Text fontSize={{ base: 'sm', sm: 'md' }} textAlign={{ base: 'justify', sm: 'left' }}>Every participant will start by completing following 3 core courses:
-
             </Text>
 
         </ALIGNMENT>

@@ -18,7 +18,7 @@ export default function ConfidenceFuture() {
           flexWrap="wrap"
           pt={{ base: "4", sm: "6" }}
           px={{ base: "8", sm: "14" }}
-          justifyContent={"space-around"}
+          justifyContent={"space-between"}
           w="full"
         >
           {CONDIFENCEDATA.map((data) => (
