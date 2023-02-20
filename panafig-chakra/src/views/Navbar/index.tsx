@@ -39,10 +39,10 @@ export default function NavBar() {
               onClick={onToggle}
               bg="transparent"
               icon={
-                isOpen ? (<Stack direction={'column'} justifyContent='space-between' mt='48' py={'10'} px={'6'} width='100%' bg='red.600' rounded={'md'}>
+                isOpen ? (<Stack direction={'column'} justifyContent='space-between' mt='48' py={'10'} px={'6'} width='100%' bg='red.700' rounded={'md'}>
                   <Flex direction={'row-reverse'}>
                     <CloseIcon w={3} h={3} mt='-6' mr='-1.5' />
-                    <Box bg='red.600'>
+                    <Box>
                       <MobileView />
                     </Box>
                   </Flex>

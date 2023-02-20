@@ -1,10 +1,9 @@
-import Head1 from "@/views/Home/Head1";
-
+import Home from "@/views/Home";
 
 export default function App() {
   return (
     <div>
-      <Head1 />
+      <Home />
     </div>
   )
 }
