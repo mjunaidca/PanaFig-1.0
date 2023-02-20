@@ -11,7 +11,7 @@ const ALIGNMENT = ( { children } : Props ) => {
         <Box bg='black'>
             <Flex
                 py={{ base: '8', md: '22' }}
-                px={{ base: '10', md: '28' }}
+                px={{ base: '10', md: '20' }}
                 direction={{base:'column', sm:'row'}}
                 justifyContent='space-between'
                 alignItems={'center'}

@@ -1,6 +1,7 @@
 
 
 import Head1 from "./Head1";
+import Instructors from "./Instructors";
 import Outcome from "./Outcome";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
       <Head1 />
       <Outcome />
+      <Instructors />
     </div>
   )
 }
