@@ -21,18 +21,18 @@ export default function NavBar() {
             <Image src={PanaverseLogo} alt='panaverse logo' height={160} width={140} />
           </Link>
 
-          <Flex display={{ base: 'none', md: 'flex' }}>
+          <Flex display={{ base: 'none', sm: 'flex' }}>
             <DesktopView />
           </Flex>
 
-          <Flex display={{ base: 'none', md: 'flex' }}>
+          <Flex display={{ base: 'none', sm: 'flex' }}>
             <GrayButton>Apply Now</GrayButton>
           </Flex>
 
           <Flex
-            flex={{ base: 1, md: "auto" }}
+            flex={{ base: 1, sm: "auto" }}
             ml={{ base: -2 }}
-            display={{ base: 'flex', md: 'none' }}
+            display={{ base: 'flex', sm: 'none' }}
             justify="end"
           >
             <IconButton

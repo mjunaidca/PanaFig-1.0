@@ -6,7 +6,7 @@ import { Stack, Box, Link } from "@chakra-ui/react";
 
 const DesktopView=()=> {
   return (
-    <Stack direction={'row'} spacing='10'>
+    <Stack direction={'row'} spacing={{sm:'4', md:'10'}}>
         {NAV_ITEMS.map((nav)=>(
             <Box key={nav.label} >
         <Link 
