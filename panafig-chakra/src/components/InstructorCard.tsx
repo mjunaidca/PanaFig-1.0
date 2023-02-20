@@ -3,11 +3,11 @@
 import { Box, Flex, Avatar, Text } from "@chakra-ui/react";
 
 interface Props {
-    text: string
+    name: string
     url: string
 }
 
-const InstructorCard = ( { text, url }: Props ) => {
+const InstructorCard = ( { name, url }: Props ) => {
     return (
         <Flex>
             <Box
@@ -16,13 +16,14 @@ const InstructorCard = ( { text, url }: Props ) => {
                 borderWidth={{ base: '1px', md: '2px' }}
                 borderColor='red.700'
                 py={{ base: '1', sm: '2' }}
-                px={{ base: '2', md: '2' }}
-                width={{base:'20', sm:'36'}}
+                px={{ base: '1', md: '1' }}
+                width={{base:'24', sm:'36'}}
                 height={{base:'20', sm:'36'}}
+                m='1'
             >
                 <Flex direction={'column'} alignItems={{ base: 'center' }} justifyItems={'space-between'}>
-                        <Avatar size={{ base: 'md', sm: 'xl' }} name={text} src={url} />{' '}
-                    <Text px={{base:'1' ,sm:'5'}} pt={{base:'1' ,sm:'2'}} fontSize={{base:'xs', sm:'lg'}}>{text}</Text>
+                        <Avatar size={{ base: 'md', sm: 'xl' }} name={name} src={url} />{' '}
+                    <Text px={{base:'0' ,sm:'1'}} pt={{base:'1' ,sm:'2'}} fontSize={{base:'xs', sm:'lg'}}>{name}</Text>
                 </Flex>
             </Box>
         </Flex>
