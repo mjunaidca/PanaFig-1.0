@@ -6,6 +6,8 @@ import Head1 from "./Head1";
 import Instructors from "./Instructors";
 import Outcome from "./Outcome";
 import Q1Q3Details from "./Q1Q3Details";
+import SpecialTrackDetails from "./SpecialTrackDetails";
+import SpecialTracks from "./SpecialTracksHead";
 
 export default function Home() {
   return (
@@ -13,9 +15,11 @@ export default function Home() {
       <Head1 />
       <Outcome />
       <Instructors />
-      <ConfidenceFuture />
       <Months6 />
       <Q1Q3Details />
+      <SpecialTracks />
+      <SpecialTrackDetails />
+      <ConfidenceFuture />
     </div>
   )
 }

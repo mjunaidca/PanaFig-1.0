@@ -10,7 +10,7 @@ export default function ConfidenceFuture() {
     <ALIGNMENT>
       <Flex width={"full"} direction={"column"}>
         <Flex justifyContent={"center"}>
-          <Heading fontSize={{ base: "2xl", sm: "3xl" }}>
+          <Heading fontSize={{ base: "2xl", sm: "3xl" }} textAlign='center'>
             Face The Future With Confidence
           </Heading>
         </Flex>

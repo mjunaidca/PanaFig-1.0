@@ -8,7 +8,7 @@ interface Props {
 
 const ALIGNMENT = ( { children } : Props ) => {
     return (
-        <Box bg='black'>
+        <Box bg='black' width={'100%'}>
             <Flex
                 py={{ base: '8', md: '22' }}
                 px={{ base: '10', md: '20' }}
