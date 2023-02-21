@@ -15,11 +15,11 @@ export default function SpecialTrackDetails() {
             <Stack width={'100%'} direction='column' >
                 <Flex direction='row'>
 
-                    <Flex width={{ base: '100%', sm: '50%' }} display={{ base: 'none', sm: "flex" }}>
+                    <Flex width={{ base: '100%', md: '50%' }} display={{ base: 'none', md: "flex" }}>
                         <Image src={Rings7} alt='Metaverse Rings' width={420} height={320} />
                     </Flex>
 
-                    <Box width={{ base: '100%', sm: '50%' }}>
+                    <Box width={{ base: '100%', md: '50%' }} px={{base:'1', sm:'14', md:'2'}}>
                         {SPECIALTRACKDETAILS.map((data) => (
                             <Box key={data.title} flexDirection='column'>
                                 <Special6TrackDetails title={data.title} details={data.details} />

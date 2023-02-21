@@ -9,46 +9,38 @@ import laptopguy from "../../../public/media/laptopguy.png";
 export default function Head1() {
   return (
     <ALIGNMENT>
+      <Flex direction={{base:'column-reverse', sm:'row'}}>
       <Box width={{ base: "100%", sm: "70%" }} textColor="white">
-         {/* Mobile */}
-         <Stack
-          display={{ base: "flex", sm: "none" }}
-          pl="5"
-          alignItems={{ base: "center", sm: "flex-start" }}
-        >
-          <Image src={laptopguy} alt="Laptop Guy" width={200} height={150} />
-        </Stack>
         
         <Header1 />
-        <Flex justifyContent={{ base: "center", sm: "flex-start" }}>
-          <Text fontSize={{ base: "sm", sm: "lg" }} textAlign="justify">
+        <Flex justifyContent={{ base: "center", md: "flex-start" }}>
+          <Text fontSize={{ base: "sm", sm:'md', md: "lg" }} textAlign="justify">
             A One and Quarter Years Earn as you Learn Program
           </Text>
         </Flex>
 
         <Stack
-          py={{ base: "8", sm: "10" }}
-          direction={{ base: "column", sm: "row" }}
-          justifyContent={{ base: "center", sm: "flex-start" }}
-          mx={{ base: "16", md: "0" }}
-          spacing="4"
+          py={{ base: "8", md: "10" }}
+          direction={{ base: "column", md: "row" }}
+          mx={{ base: "16", sm:'16', md: "0" }}
+          spacing={{base:"3", md:'6', xl:'10'}}
         >
           <RedButton>Start Learning Now</RedButton>
           <GrayButton>Explore Curriculum</GrayButton>
         </Stack>
       </Box>
-      <Box width={{ base: "100%", sm: "30%" }}>
-        {/* Desktop */}
-        <Stack
-          display={{ base: "none", sm: "flex" }}
-          pl="5"
-          alignItems={{ base: "center", sm: "flex-start" }}
-        >
-          <Image src={laptopguy} alt="Laptop Guy" width={480} height={480} />
-        </Stack>
 
-       
+      <Box width={{ base: "100%", sm: "30%" }}>
+        <Flex
+          display={{ base: "flex", sm: "flex" }}
+          alignItems={{ base: "center", sm: "flex-start" }}
+          justifyContent={{ base: "center", sm: "flex-start" }}
+          px={{base:'14', sm:'0'}}
+        >
+          <Image src={laptopguy} alt="Laptop Guy"  />
+        </Flex>
       </Box>
+      </Flex>
     </ALIGNMENT>
   );
 }
@@ -56,15 +48,15 @@ export default function Head1() {
 const Header1 = () => {
   return (
     <Flex
-      direction={{ base: "column", sm: "column" }}
-      py={{ base: "8", md: "22" }}
+      direction={{ base: "column"}}
       display={{ base: "flex", sm: "flex" }}
-      alignItems={{ base: "flex-start", sm: "flex-start" }}
+      alignItems={{ base: "flex-start" }}
+      py={{ base: "8", md: "8" }}
     >
       <Heading
-        fontWeight={{ base: "600", sm: "bold" }}
-        fontSize={{ base: "3xl", sm: "4xl", md: "4xl", lg: "5xl" }}
-        textAlign={{ base: "left", sm: "left" }}
+        fontWeight={{ base: "bold", md: "bold" }}
+        fontSize={{ base: "3xl", sm: "3xl", md: "4xl", lg:'5xl', xl: "6xl" }}
+        textAlign={{ base: "left"}}
       >
         Become Certified
         <br />

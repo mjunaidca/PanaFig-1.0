@@ -8,16 +8,32 @@ interface Props {
 
 export function GrayButton( {children}:Props ) {
     return (
-            <Button bgColor='#232222' rounded={'3xl'} size='xs' px={{base:'3', sm:'6'}} py={{base:'3.5', md:'5'}} borderWidth={{base:'1px', md:'2px'}} borderColor='red.700'>
-                <Text fontSize={{base:'sm', md:'md'}} color='white' >{children}</Text>
+            <Button 
+                bgColor='#232222' 
+                rounded={{base:'2xl', sm:'2xl', md:'3xl'}} 
+                px={{base:'6', sm:'12', md: '6'}} 
+                py={{base:'4', md:'5'}} 
+                borderWidth={{base:'2px', md:'2px'}} 
+                borderColor='red.800'
+                size='sm' 
+                >
+                <Text fontSize={{base:'md', sm:'md', md:'lg'}} color='white' >{children}</Text>
             </Button>
     )
 }
 
 export const RedButton =( {children}:Props )=>{
     return (
-            <Button bgColor='red.700' rounded={'3xl'} size='xs' px={{base:'3', sm:'6'}} py={{base:'3.5', md:'5'}} borderWidth={{base:'1px', md:'2px'}} borderColor='red.700' _hover={{ bg: "red.800" }}>
-                <Text fontSize={{base:'sm', md:'md'}} color='white' >{children}</Text>
+            <Button 
+                bgColor='red.800' 
+                rounded={{base:'2xl', sm:'2xl', md:'3xl'}} 
+                size='xs' 
+                px={{base:'6', sm:'12', md: '6'}} 
+                py={{base:'4', md:'5'}} 
+                borderWidth={{base:'2px', md:'2px'}} 
+                borderColor='red.800' 
+                _hover={{ bg: "red.700", borderColor:'red.900' }}>
+                <Text fontSize={{base:'md', sm:'md', md:'lg'}} color='white' >{children}</Text>
             </Button>
     )
 }

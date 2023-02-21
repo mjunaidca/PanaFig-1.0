@@ -1,33 +1,32 @@
-'use client'
+"use client";
 
 import { Box, Flex, Text, Stack } from "@chakra-ui/react";
 
 interface Props {
-    text: string
+  text: string;
 }
 
-const ConfidenceCard = ( { text }: Props ) => {
-    return (
-        <Flex>
-            <Box
-                bgColor='#232222'
-                rounded={{base:'xl', sm:'2xl'}}
-                borderWidth={{ base: '1px', md: '2px' }}
-                borderColor='red.700'
-                py={{ base: '1', sm: '1' }}
-                px={{ base: '1.5', md: '4' }}
-                width={{ base: '24', md: '36' }}
-                height={{ base: '14', md: '16' }}
-                m='2'
+const ConfidenceCard = ({ text }: Props) => {
+  return (
+    <Flex
+      bgColor="#232222"
+      rounded={{ base: "xl", md: "2xl" }}
+      borderWidth={{ base: "2px" }}
+      borderColor="red.800"
+      justifyContent={"center"}
+      width={{ base: "28", sm: "36", md: "40", xl: "52" }}
+      height={{ base: "14", sm: "16", md: "20" }}
+      m="1"
+      mx="-0.5"
+      alignItems={"center"}
+    >
+      <Text fontSize={{ base: "md", sm: "lg", lg: "xl" }} 
+            textAlign="center"
             >
-                <Stack width='full' direction={'column'} >
-                <Flex justifyContent={'center'}>
-                    <Text fontSize={{base:'md', sm:'lg'}}>{text}</Text>
-                </Flex>
-                </Stack>
-            </Box>
-        </Flex>
-    )
-}
+        {text}
+      </Text>
+    </Flex>
+  );
+};
 
 export default ConfidenceCard;

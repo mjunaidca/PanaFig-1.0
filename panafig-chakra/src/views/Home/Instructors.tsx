@@ -18,7 +18,7 @@ const Instructors = () => {
         <Flex
           flexWrap="wrap"
           pt={{ base: "4", sm: "6" }}
-          px={{ base: "8", sm: "14" }}
+          px={{ base: "8", sm: "0" }}
           justifyContent={"space-around"}
           w="full"
         >

@@ -15,9 +15,6 @@ import SpecialTracks from "./SpecialTracksHead";
 export default function Home() {
   return (
     <>
-    {/* // <Box w='full' bg='black'>
-    //   <Stack px={{ xl: '15%' }} >
-    //     <Stack width={{ xl: '1280px' }} align='center' bg='black' > */}
           <Head1 />
           <Outcome />
           <Instructors />
@@ -28,10 +25,6 @@ export default function Home() {
           <ConfidenceFuture />
           <NutshellProgram />
           <LastHead />
-          
-    {/* //     </Stack>
-    //   </Stack>
-    // </Box> */}
     </>
   )
 }

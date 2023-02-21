@@ -18,7 +18,7 @@ export default function Special6TrackDetails( {title, details}: Props ) {
                     <>
                         <h2>
                             <AccordionButton 
-                                    width={{ base: 'xs', sm: 'md', md: 'lg' }} 
+                                    width={{ base: 'xs', md: 'md', xl: 'lg' }} 
                                     _hover={{ bg: '#232222' }}
                                     _expanded={{ bg: "#232222", border:'1px', borderColor:'red.700', borderLeft: "12px solid", borderLeftColor:'red.700'}}
                                     >
