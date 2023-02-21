@@ -15,41 +15,45 @@ export default function NavBar() {
   return (
     <div>
       
-      <Box bg='black' >
-        <Flex maxHeight={'28'} justifyContent={'space-between'} alignItems={'center'} px={{ base: '8', md: '16', lg: '20' }} py={{ base: '6', md: '10', lg: '10' }}>
+      <Box bg='black' width={"full"}>
+        <Flex maxHeight={'32'} justifyContent={'space-between'} alignItems={'center'} px={{ base: '8', sm:'2' , md: '16', lg: '20', xl:'48' }} py={{ base: '6', md: '10', lg: '10' }}>
 
+    
           <Link as={NextLink} href='/'>
-            <Image src={PanaverseLogo} alt='panaverse logo' height={160} width={140} />
+            <Image src={PanaverseLogo} alt='panaverse logo' height={250} width={180}/>
           </Link>
 
-          <Flex display={{ base: 'none', sm: 'flex' }}>
+          <Flex display={{ base: 'none', md: 'flex' }}>
             <DesktopView />
           </Flex>
 
-          <Flex display={{ base: 'none', sm: 'flex' }}>
+          <Flex display={{ base: 'none', md: 'flex' }}>
             <GrayButton>Apply Now</GrayButton>
           </Flex>
 
           <Flex
             flex={{ base: 1, sm: "auto" }}
             ml={{ base: -2 }}
-            display={{ base: 'flex', sm: 'none' }}
+            display={{ base: 'flex', md: 'none' }}
             justify="end"
+            mx={{base:'0', sm:'6'}}
           >
             <IconButton
               onClick={onToggle}
               bg="transparent"
+              
               icon={
-                isOpen ? (<Stack direction={'column'} justifyContent='space-between' mt='48' py={'10'} px={'6'} width='100%' bg='red.700' rounded={'md'}>
+                isOpen ? (
+                <Stack  py={{base:'10'}} mt='48'  px={{base:'6', sm:'10'}}width='100%' bg='red.700' rounded={'md'}>
                   <Flex direction={'row-reverse'}>
-                    <CloseIcon w={3} h={3} mt='-6' mr='-1.5' />
+                    <CloseIcon w={4} h={4} mt='-6' mr={{base:'-1.5', sm:'-5'}} color='white' />
                     <Box>
                       <MobileView />
                     </Box>
                   </Flex>
                 </Stack>
                 ) : (
-                  <HamburgerIcon w={5} h={5} />
+                  <HamburgerIcon w={6} h={6} color='white' />
                 )
               }
               variant={'ghost'}

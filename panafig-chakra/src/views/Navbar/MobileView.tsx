@@ -11,7 +11,8 @@ const MobileView=()=> {
             <Box key={nav.label} >
         <Link 
             as={NextLink}
-            fontSize={{base:"sm", md:'md'}}
+            fontSize={{base:"sm", sm:'md', md:'md'}}
+           
             color={'white'}
             href={nav.href ?? '#'}
             >
@@ -25,4 +26,6 @@ const MobileView=()=> {
 }
 
 export default MobileView;
+
+
 

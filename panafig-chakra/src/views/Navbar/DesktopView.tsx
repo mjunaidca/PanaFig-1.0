@@ -6,13 +6,13 @@ import { Stack, Box, Link } from "@chakra-ui/react";
 
 const DesktopView=()=> {
   return (
-    <Stack direction={'row'} spacing={{sm:'4', md:'10'}}>
+    <Stack direction={'row'} spacing={{sm:'3', md:'6', lg:'10', xl:'14' }}>
         {NAV_ITEMS.map((nav)=>(
             <Box key={nav.label} >
         <Link 
             as={NextLink}
             p={2}
-            fontSize={{base:"sm", md:'md'}}
+            fontSize={{ sm:'md', md:'md', lg:'lg', xl:'xl'}}
             color={'white'}
             href={nav.href ?? '#'}
             _hover={{ color:"red" }}
