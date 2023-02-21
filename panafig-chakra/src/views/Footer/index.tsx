@@ -37,6 +37,9 @@ const Footer = () => {
                                 </Text>
 
                             </Box>
+                            
+                            <Box bg='gray.800' width='0.5' height={'32'} my='3' display={{ base: 'none', md: 'block' }}/>
+
                             <Box display={{ base: 'flex', md: 'block' }} justifyContent='center' alignItems={'center'} >
                                 {NAV_ITEMS.map((nav) => (
                                     <Flex key={nav.label}>
@@ -54,6 +57,7 @@ const Footer = () => {
                                     </Flex>
                                 ))}
                             </Box>
+                            <Box bg='gray.800' width='0.5' height={'32'} my='3' display={{ base: 'none', md: 'block' }}/>
                             <Box>
                                 <VStack>
                                     <Text fontSize={{ base: 'sm', sm: 'md', md: 'md', lg: 'md' }} fontWeight={{ base: 'medium', sm: 'medium', md: 'bold' }} >Socialize with Panaverse DAO</Text>
@@ -77,7 +81,7 @@ const Footer = () => {
 
                     </Box>
 
-                    <Box bg='gray.700' height={'0.5'} width='full' my='3' />
+                    <Box bg='gray.800' height={'0.5'} width='full' my='3' />
 
                     <Box justifyContent={'center'} alignItems='center' display={'flex'}>
                         <Text fontSize={{ base:'xs', md: 'xs', lg: 'sm' }}>
