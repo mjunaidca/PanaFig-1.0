@@ -1,6 +1,6 @@
 'use client'
 
-import { Stack, Box, Link, Flex, IconButton, useDisclosure } from "@chakra-ui/react";
+import { Stack, Box, Link, Flex, IconButton, useDisclosure, Container } from "@chakra-ui/react";
 import PanaverseLogo from '../../../public/logo.png'
 import Image from "next/image";
 import NextLink from "next/link";
@@ -14,8 +14,9 @@ export default function NavBar() {
 
   return (
     <div>
-      
-      <Box bg='black' width={"full"}>
+        
+      <Box bg='black' width={"full"} >
+      <Container maxW='1440px'>    
         <Flex maxHeight={'32'} justifyContent={'space-between'} alignItems={'center'} px={{ base: '8', sm:'2' , md: '16', lg: '20', xl:'48' }} py={{ base: '6', md: '10', lg: '10' }}>
 
     
@@ -62,7 +63,9 @@ export default function NavBar() {
           </Flex>
 
         </Flex>
+        </Container>
       </Box>
+      
 
     </div>
   )

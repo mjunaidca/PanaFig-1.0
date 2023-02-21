@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Stack } from "@chakra-ui/react";
+import { Box, Container, Stack } from "@chakra-ui/react";
 import Months6 from "./6Months";
 import ConfidenceFuture from "./ConfidenceFuture";
 import Head1 from "./Head1";
@@ -14,17 +14,20 @@ import SpecialTracks from "./SpecialTracksHead";
 
 export default function Home() {
   return (
-    <>
-          <Head1 />
-          <Outcome />
-          <Instructors />
-          <Months6 />
-          <Q1Q3Details />
-          <SpecialTracks />
-          <SpecialTrackDetails />
-          <ConfidenceFuture />
-          <NutshellProgram />
-          <LastHead />
-    </>
+    <Box bg='black'>
+      <Container maxW='1440px'>
+        <Head1 />
+        <Outcome />
+        <Instructors />
+        <Months6 />
+        <Q1Q3Details />
+        <SpecialTracks />
+        <SpecialTrackDetails />
+        <ConfidenceFuture />
+        <NutshellProgram />
+        <LastHead />
+      </Container>
+    </Box>
+
   )
 }

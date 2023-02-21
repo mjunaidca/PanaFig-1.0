@@ -16,6 +16,7 @@ export function GrayButton( {children}:Props ) {
                 borderWidth={{base:'2px', md:'2px'}} 
                 borderColor='red.800'
                 size='sm' 
+                _hover={{ bg:'#232222' }}
                 >
                 <Text fontSize={{base:'md', sm:'md', md:'lg'}} color='white' >{children}</Text>
             </Button>
