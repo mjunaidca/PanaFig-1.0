@@ -18,7 +18,7 @@ const Footer = () => {
             <Container
                 maxW="1440px"
                 pt={{ base: '8', md: '22' }}
-                px={{ base: '10', sm: '6', md: '20', lg: '24', xl: '52' }}
+                px={{ base: '6', sm: '6', md: '20', lg: '24', xl: '52' }}
                 color='white'
             >
 

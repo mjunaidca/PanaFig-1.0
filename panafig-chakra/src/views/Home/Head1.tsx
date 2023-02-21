@@ -24,6 +24,7 @@ export default function Head1() {
           direction={{ base: "column", md: "row" }}
           mx={{ base: "16", sm:'16', md: "0" }}
           spacing={{base:"3", md:'6', xl:'10'}}
+          justifyContent='center' alignItems={'center'}
         >
           <RedButton>Start Learning Now</RedButton>
           <GrayButton>Explore Curriculum</GrayButton>

@@ -17,7 +17,7 @@ export default function NavBar() {
         
       <Box bg='black' width={"full"} >
       <Container maxW='1440px'>    
-        <Flex maxHeight={'32'} justifyContent={'space-between'} alignItems={'center'} px={{ base: '8', sm:'2' , md: '16', lg: '20', xl:'48' }} py={{ base: '6', md: '10', lg: '10' }}>
+        <Flex maxHeight={'32'} justifyContent={'space-between'} alignItems={'center'} px={{ base: '4', sm:'2' , md: '16', lg: '20', xl:'48' }} py={{ base: '6', md: '10', lg: '10' }}>
 
     
           <Link as={NextLink} href='/'>

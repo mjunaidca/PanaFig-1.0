@@ -11,7 +11,7 @@ const ALIGNMENT = ( { children } : Props ) => {
         <Box bg='black' width={'100%'}>
             <Flex
                 py={{ base: '8', md: '22' }}
-                px={{ base: '10', sm:'6', md: '20', lg:'24', xl:'52' }}
+                px={{ base: '4', sm:'6', md: '20', lg:'24', xl:'52' }}
                 direction={{base:'column', sm:'row', md:'row'}}
                 color='white'
             >

@@ -56,6 +56,7 @@ export default function LastHead( ) {
           direction={"row"}
           justifyContent="center"
           display={{ base: "flex", md: "none" }}
+          pt='4'
         >
           <RedButton>Apply Now!</RedButton>
         </Flex>
