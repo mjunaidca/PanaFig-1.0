@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.z-above-bg {
+    position: relative;
+    z-index: 10;
+  }
