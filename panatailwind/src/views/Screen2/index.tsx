@@ -9,7 +9,7 @@ const Screen2 = () => {
     return (
         <div>
             <Wrapper>
-                <div className='flex flex-col justify-around items-center flex-grow'>
+                <div className='flex flex-col justify-around items-center flex-grow py-10'>
 
                     <div className='flex flex-col justify-center items-center gap-10'>
                         <Header2 text={OUTCOME.label} />

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <header className='flex justify-between px-4 md:px-10 xl:px-16 py-4 items-center bg-[#FFF7EA]'>
+        <header className='flex justify-between px-4 md:px-10 xl:px-16 pt-4 items-center bg-[#FFF7EA]'>
             <div className=' w-32 md:w-40'>
                 <Link href='./'>
                     <Image src={PanaLogo} alt="Panaverse DAO" />
