@@ -8,7 +8,7 @@ const Screen3 = () => {
     return (
         <div>
             <Wrapper>
-                <div className='flex flex-col justify-center items-center md:py-16 w-full'>
+                <div className='flex flex-col justify-between items-center md:py-16 w-full'>
                     <div>
                         <Header2 text={SYLLABUSHEAD} />
                     </div>

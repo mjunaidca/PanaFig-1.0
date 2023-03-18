@@ -69,15 +69,15 @@ export const SYLLABUSDETAILS = [
         Data: [
             {
                 title: 'Program Studies',
-                details: `This curriculum is intended for beginners learn software development from the ground up. First 3 quarters are shared by all specialties to learn cutting-edge Full-Stack Web 2.0 development. `,
+                details: `Learn software development from the ground up. First 3 quarters are shared by all specialties to learn Full-Stack Web 2.0 development. `,
             },
             {
                 title: 'Duration',
-                details: `It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each.`,
+                details: `Fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each.`,
             },
             {
                 title: 'Teaching Format',
-                details: `To accommodate everyone, courses will be held primarily on weekends or after 6:00 p.m. (Pakistan Time) on weekdays.`,
+                details: `To accommodate everyone, courses will be held primarily on weekends or after 6:00 p.m. on weekdays.`,
 
             }
         ]
