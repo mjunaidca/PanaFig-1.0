@@ -8,7 +8,7 @@ export const OUTCOME = {
     text: `Graduates of this program will own products (Full-Stack App Templates, AR & VR Experiences, & APIs). They can get into services at $50 per hour ($96,000 per year).`
 }
 
-export const CAREER = 'You can launch your career in as little as 6 months'
+export const CAREER = `Launch your career in as little as 6 months`
 
 export const SYLLABUSHEAD = `the best syllabus`
 
